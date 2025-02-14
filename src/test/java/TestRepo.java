@@ -31,4 +31,15 @@ public class TestRepo {
                 .extract()
                 .response();
     }
+        @Test
+    //https://65c9e1133b05d29307df2a54.mockapi.io/api/v1/users
+    public void test3() {
+        Response response = given()
+                .when()
+                .get("https://65c9e1133b05d29307df2a54.mockapi.io/api/v1/users")
+                .then()
+                .log().all()
+                .extract()
+                .response();
+    }
 }
