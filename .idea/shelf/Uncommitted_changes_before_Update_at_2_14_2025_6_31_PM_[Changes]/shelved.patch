@@ -1,0 +1,44 @@
+Index: src/test/java/TestRepo.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import io.qameta.allure.restassured.AllureRestAssured;\r\nimport io.restassured.RestAssured;\r\nimport io.restassured.response.Response;\r\nimport org.testng.annotations.Test;\r\n\r\nimport static io.restassured.RestAssured.given;\r\n\r\npublic class TestRepo {\r\n    static {\r\n        RestAssured.filters(new AllureRestAssured());\r\n    }\r\n    @Test\r\n    //https://65c9e1133b05d29307df2a54.mockapi.io/api/v1/users\r\n    public void test1() {\r\n        Response response = given()\r\n                .when()\r\n                .get(\"https://65c9e1133b05d29307df2a54.mockapi.io/api/v1/users\")\r\n                .then()\r\n                .log().all()\r\n                .extract()\r\n                .response();\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/TestRepo.java b/src/test/java/TestRepo.java
+--- a/src/test/java/TestRepo.java	(revision 95aa65e6a0069f99e66b0c3b924b727a36340302)
++++ b/src/test/java/TestRepo.java	(date 1739550522039)
+@@ -20,4 +20,15 @@
+                 .extract()
+                 .response();
+     }
++    @Test
++    //https://65c9e1133b05d29307df2a54.mockapi.io/api/v1/users
++    public void test2() {
++        Response response = given()
++                .when()
++                .get("https://65c9e1133b05d29307df2a54.mockapi.io/api/v1/users")
++                .then()
++                .log().all()
++                .extract()
++                .response();
++    }
+ }
+Index: README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/README.md b/README.md
+new file mode 100644
+--- /dev/null	(date 1739550045262)
++++ b/README.md	(date 1739550045262)
+@@ -0,0 +1,7 @@
++# TestApi
++
++
++
++
++Change from remote repo
++===========    
+\ No newline at end of file
