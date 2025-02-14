@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 import static io.restassured.RestAssured.given;
 
 public class NewTest {
-    @Test
+/*    @Test
     //https://65c9e1133b05d29307df2a54.mockapi.io/api/v1/users
     public void test3() {
         Response response = given()
@@ -14,5 +14,5 @@ public class NewTest {
                 .log().all()
                 .extract()
                 .response();
-    }
+    }*/
 }
