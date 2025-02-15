@@ -34,3 +34,14 @@ jobs:
     - name: Test with Maven
       continue-on-error: true
       run: mvn clean test
+
+    - name: Generate Allure Report in target/
+      run: |
+        cd target/
+        allure generate allure-results --single-file --clean -o allure-report
+
+    - name: Upload Allure Report
+      uses: actions/upload-artifact@v3
+      with:
+        name: allure-report
+        path: target/allure-report
