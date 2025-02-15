@@ -28,7 +28,6 @@ jobs:
       uses: simple-elf/allure-report-action@master
       with:
         allure_results: target/allure-results
-        allure_report: allure-report
         gh_pages: gh-pages
 
     - name: Test with Maven
