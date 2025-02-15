@@ -25,13 +25,12 @@ jobs:
           maven-version: 3.9.6
 
     - name: Set up Allure
-      uses: allure-framework/allure-action@v2.24.0
-        
+      uses: simple-elf/allure-report-action@master
+      with:
+        allure_results: target/allure-results
+        allure_report: allure-report
+        gh_pages: gh-pages
+
     - name: Test with Maven
       continue-on-error: true
       run: mvn clean test
-
-    - name: Generate Allure Report in target/
-      run: |
-        cd target/
-        allure generate allure-results --single-file --clean -o allure-report
