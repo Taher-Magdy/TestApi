@@ -43,16 +43,10 @@ jobs:
 
     - name: Generate Allure Report
       run: |
-        allure generate target/allure-results --clean -o target/allure-report
+        allure generate target/allure-results --single-file --clean -o target/allure-report
 
-    - name: Upload Full Allure Report
+    - name: Upload Allure Report
       uses: actions/upload-artifact@v4
       with:
-        name: allure-report-full
-        path: target/allure-report
-
-    - name: Upload Allure Report Index
-      uses: actions/upload-artifact@v4
-      with:
-        name: allure-report-index
+        name: allure-report
         path: target/allure-report/index.html
