@@ -20,6 +20,8 @@ public class TestRepo {
                 .extract()
                 .response();
     }
+<<<<<<< HEAD
+=======
     @Test(priority = 1 , groups = {"barcode"})
     public void test60() {
         Response response = given()
@@ -42,4 +44,5 @@ public class TestRepo {
                 .response();
     }
 
+>>>>>>> backup
 }
