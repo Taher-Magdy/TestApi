@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8379a83-6bd9-4605-a9b6-9d5f3682e73e" name="Changes" comment="neew">
-      <change beforePath="$PROJECT_DIR$/src/test/java/New/TestRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/New/TestRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +27,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="75648f4cf9b68003391fb12d0e6552f2a4544840" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,19 +56,19 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.C:/Users/taher.magdy/Downloads/TestRepo/src/test/resources/barcode.xml.executor": "Run",
-    "TestNG.C:/Users/taher.magdy/Downloads/TestRepo/src/test/resources/masterSuite.xml.executor": "Run",
-    "TestNG.TestRepo.test1.executor": "Run",
-    "git-widget-placeholder": "backup",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/taher.magdy/Downloads/TestRepo/src/test/resources",
-    "onboarding.tips.debug.path": "C:/Users/taher.magdy/Downloads/TestRepo/src/main/java/org/example/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.C:/Users/taher.magdy/Downloads/TestRepo/src/test/resources/barcode.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/taher.magdy/Downloads/TestRepo/src/test/resources/masterSuite.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestRepo.test1.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/taher.magdy/Downloads/TestRepo/src/test/resources&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/taher.magdy/Downloads/TestRepo/src/main/java/org/example/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\taher.magdy\Downloads\TestRepo\src\test\resources" />
@@ -77,20 +77,10 @@
       <recent name="C:\Users\taher.magdy\Downloads\TestRepo\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/taher.magdy/Downloads/TestRepo/src/test/resources/masterSuite.xml">
+  <component name="RunManager" selected="TestNG.C:/Users/taher.magdy/Downloads/TestRepo/src/test/resources/barcode.xml">
     <configuration name="C:/Users/taher.magdy/Downloads/TestRepo/src/test/resources/barcode.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestRepo" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/barcode.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/taher.magdy/Downloads/TestRepo/src/test/resources/masterSuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestRepo" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/masterSuite.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -113,10 +103,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.TestRepo.test1" />
-        <item itemvalue="TestNG.C:/Users/taher.magdy/Downloads/TestRepo/src/test/resources/masterSuite.xml" />
         <item itemvalue="TestNG.C:/Users/taher.magdy/Downloads/TestRepo/src/test/resources/barcode.xml" />
         <item itemvalue="TestNG.TestRepo.test1" />
-        <item itemvalue="TestNG.C:/Users/taher.magdy/Downloads/TestRepo/src/test/resources/masterSuite.xml" />
       </list>
     </recent_temporary>
   </component>
