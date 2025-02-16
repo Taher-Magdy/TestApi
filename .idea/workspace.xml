@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8379a83-6bd9-4605-a9b6-9d5f3682e73e" name="Changes" comment="neew">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/azure-pipelines.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/barcode.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/masterSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/NewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/New/NewTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/New/TestRepo.java" afterDir="false" />
-    </list>
+    <list default="true" id="b8379a83-6bd9-4605-a9b6-9d5f3682e73e" name="Changes" comment="neew" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +44,7 @@
   }
 }</component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -72,7 +61,7 @@
     "TestNG.C:/Users/taher.magdy/Downloads/TestRepo/src/test/resources/barcode.xml.executor": "Run",
     "TestNG.C:/Users/taher.magdy/Downloads/TestRepo/src/test/resources/masterSuite.xml.executor": "Run",
     "TestNG.TestRepo.test1.executor": "Run",
-    "git-widget-placeholder": "backup",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/taher.magdy/Downloads/TestRepo/src/test/resources",
     "onboarding.tips.debug.path": "C:/Users/taher.magdy/Downloads/TestRepo/src/main/java/org/example/Main.java"
@@ -121,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestRepo.test1" />
         <item itemvalue="TestNG.C:/Users/taher.magdy/Downloads/TestRepo/src/test/resources/masterSuite.xml" />
         <item itemvalue="TestNG.C:/Users/taher.magdy/Downloads/TestRepo/src/test/resources/barcode.xml" />
         <item itemvalue="TestNG.TestRepo.test1" />
-        <item itemvalue="TestNG.TestRepo.test1" />
-        <item itemvalue="TestNG.TestRepo.test1" />
+        <item itemvalue="TestNG.C:/Users/taher.magdy/Downloads/TestRepo/src/test/resources/masterSuite.xml" />
       </list>
     </recent_temporary>
   </component>
