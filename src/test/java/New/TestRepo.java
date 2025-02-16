@@ -22,7 +22,7 @@ public class TestRepo {
     }
         @Test(priority = 1 , groups = {"barcode"})
     //https://65c9e1133b05d29307df2a54.mockapi.io/api/v1/users
-    public void test46() {
+    public void test60() {
         Response response = given()
                 .when()
                 .get("https://65c9e1133b05d29307df2a54.mockapi.io/api/v1/users")
@@ -33,7 +33,7 @@ public class TestRepo {
     }
         @Test(priority = 1 , groups = {"barcode"})
     //https://65c9e1133b05d29307df2a54.mockapi.io/api/v1/users
-    public void test57() {
+    public void test59() {
         Response response = given()
                 .when()
                 .get("https://65c9e1133b05d29307df2a54.mockapi.io/api/v1/users")
