@@ -1,0 +1,26 @@
+Index: src/test/java/New/TestRepo.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package New;\r\n\r\nimport io.qameta.allure.restassured.AllureRestAssured;\r\nimport io.restassured.RestAssured;\r\nimport io.restassured.response.Response;\r\nimport org.testng.annotations.Test;\r\n\r\nimport static io.restassured.RestAssured.given;\r\n\r\npublic class TestRepo {\r\n\r\n    @Test(priority = 1 , groups = {\"New\"})\r\n    //https://65c9e1133b05d29307df2a54.mockapi.io/api/v1/users\r\n    public void test1() {\r\n        Response response = given()\r\n                .when()\r\n                .get(\"https://65c9e1133b05d29307df2a54.mockapi.io/api/v1/users\")\r\n                .then()\r\n                .extract()\r\n                .response();\r\n    }\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/New/TestRepo.java b/src/test/java/New/TestRepo.java
+--- a/src/test/java/New/TestRepo.java	(revision d797171f31d766cc12038cd6bc51cc39a1f696eb)
++++ b/src/test/java/New/TestRepo.java	(date 1739716639821)
+@@ -19,5 +19,15 @@
+                 .extract()
+                 .response();
+     }
++    @Test(priority = 1 , groups = {"New"})
++    //https://65c9e1133b05d29307df2a54.mockapi.io/api/v1/users
++    public void test2() {
++        Response response = given()
++                .when()
++                .get("https://65c9e1133b05d29307df2a54.mockapi.io/api/v1/users")
++                .then()
++                .extract()
++                .response();
++    }
+ 
+ }
