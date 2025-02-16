@@ -32,7 +32,6 @@ public class TestRepo {
                 .response();
     }
         @Test(priority = 1 , groups = {"barcode"})
-    //https://65c9e1133b05d29307df2a54.mockapi.io/api/v1/users
     public void test3() {
         Response response = given()
                 .when()
