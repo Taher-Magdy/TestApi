@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8379a83-6bd9-4605-a9b6-9d5f3682e73e" name="Changes" comment="neew">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b8379a83-6bd9-4605-a9b6-9d5f3682e73e" name="Changes" comment="neew" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,10 +75,20 @@
       <recent name="C:\Users\taher.magdy\Downloads\TestRepo\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/taher.magdy/Downloads/TestRepo/src/test/resources/barcode.xml">
+  <component name="RunManager" selected="TestNG.C:/Users/taher.magdy/Downloads/TestRepo/src/test/resources/masterSuite.xml">
     <configuration name="C:/Users/taher.magdy/Downloads/TestRepo/src/test/resources/barcode.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestRepo" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/barcode.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/taher.magdy/Downloads/TestRepo/src/test/resources/masterSuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestRepo" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/masterSuite.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -103,8 +111,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.TestRepo.test1" />
+        <item itemvalue="TestNG.C:/Users/taher.magdy/Downloads/TestRepo/src/test/resources/masterSuite.xml" />
         <item itemvalue="TestNG.C:/Users/taher.magdy/Downloads/TestRepo/src/test/resources/barcode.xml" />
         <item itemvalue="TestNG.TestRepo.test1" />
+        <item itemvalue="TestNG.C:/Users/taher.magdy/Downloads/TestRepo/src/test/resources/barcode.xml" />
       </list>
     </recent_temporary>
   </component>
