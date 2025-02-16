@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8379a83-6bd9-4605-a9b6-9d5f3682e73e" name="Changes" comment="neew">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/azure-pipelines.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/barcode.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/masterSuite.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/New/NewTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/New/TestRepo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,9 +68,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.C:/Users/taher.magdy/Downloads/TestRepo/src/test/resources/barcode.xml.executor": "Run",
+    "TestNG.C:/Users/taher.magdy/Downloads/TestRepo/src/test/resources/masterSuite.xml.executor": "Run",
     "TestNG.TestRepo.test1.executor": "Run",
-    "com.codeium.enabled": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "backup",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/taher.magdy/Downloads/TestRepo/src/test/resources",
     "onboarding.tips.debug.path": "C:/Users/taher.magdy/Downloads/TestRepo/src/main/java/org/example/Main.java"
@@ -71,12 +82,35 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\taher.magdy\Downloads\TestRepo\src\test\resources" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\taher.magdy\Downloads\TestRepo\src\test\resources" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.C:/Users/taher.magdy/Downloads/TestRepo/src/test/resources/masterSuite.xml">
+    <configuration name="C:/Users/taher.magdy/Downloads/TestRepo/src/test/resources/barcode.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestRepo" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/barcode.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/taher.magdy/Downloads/TestRepo/src/test/resources/masterSuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestRepo" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/masterSuite.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestRepo.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestRepo" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestRepo" />
+      <option name="MAIN_CLASS_NAME" value="New.TestRepo" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -87,8 +121,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestRepo.test1" />
-        <item itemvalue="TestNG.TestRepo.test1" />
+        <item itemvalue="TestNG.C:/Users/taher.magdy/Downloads/TestRepo/src/test/resources/masterSuite.xml" />
+        <item itemvalue="TestNG.C:/Users/taher.magdy/Downloads/TestRepo/src/test/resources/barcode.xml" />
         <item itemvalue="TestNG.TestRepo.test1" />
         <item itemvalue="TestNG.TestRepo.test1" />
         <item itemvalue="TestNG.TestRepo.test1" />

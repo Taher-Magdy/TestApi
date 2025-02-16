@@ -5,6 +5,8 @@ on:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
+  schedule:
+    - cron: '0 8 * * *'
 
 jobs:
   build:
@@ -31,7 +33,6 @@ jobs:
         gh_pages: gh-pages
 
     - name: Test with Maven
-      continue-on-error: true
       run: mvn clean test
 
     - name: Install Allure CLI

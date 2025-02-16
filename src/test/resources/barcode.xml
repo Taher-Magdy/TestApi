@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Barcode Test Suite">
+    <test name="Barcode Tests">
+        <groups>
+            <run>
+                <include name="barcode"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="New.NewTest"/>
+            <class name="New.TestRepo"/>
+        </classes>
+    </test>
+</suite>

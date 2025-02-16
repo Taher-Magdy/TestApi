@@ -1,0 +1,6 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MasterSuite">
+    <suite-files>
+        <suite-file path="barcode.xml"/>  <!-- Runs first -->
+    </suite-files>
+</suite>

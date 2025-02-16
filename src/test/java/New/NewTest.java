@@ -1,17 +1,14 @@
-import io.qameta.allure.restassured.AllureRestAssured;
-import io.restassured.RestAssured;
+package New;
+
 import io.restassured.response.Response;
 import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
 
-public class TestRepo {
-    static {
-        RestAssured.filters(new AllureRestAssured());
-    }
-    @Test
+public class NewTest {
+    @Test(priority = 1 , groups = {"barcode"})
     //https://65c9e1133b05d29307df2a54.mockapi.io/api/v1/users
-    public void test1() {
+    public void test3() {
         Response response = given()
                 .when()
                 .get("https://65c9e1133b05d29307df2a54.mockapi.io/api/v1/users")
@@ -20,12 +17,12 @@ public class TestRepo {
                 .extract()
                 .response();
     }
-    @Test
+    @Test(priority = 2 , groups = {"barcode"})
     //https://65c9e1133b05d29307df2a54.mockapi.io/api/v1/users
-    public void test2() {
+    public void test4() {
         Response response = given()
                 .when()
-                .get("https://65c9e1133b05d29307df2a54.mockapi.io/api/v1/users")
+                .get("https://65c9e1133b05d29307df2a54.mockapi.io/api/v1/courses")
                 .then()
                 .log().all()
                 .extract()
