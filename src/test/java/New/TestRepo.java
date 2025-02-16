@@ -11,35 +11,5 @@ public class TestRepo {
     static {
         RestAssured.filters(new AllureRestAssured());
     }
-    @Test(priority = 1 , groups = {"barcode"})
-    //https://65c9e1133b05d29307df2a54.mockapi.io/api/v1/users
-    public void test1() {
-        Response response = given()
-                .when()
-                .get("https://65c9e1133b05d29307df2a54.mockapi.io/api/v1/courses")
-                .then()
-                .log().all()
-                .extract()
-                .response();
-    }
-    @Test
-    public void test4() {
-        Response response = given()
-                .when()
-                .get("https://65c9e1133b05d29307df2a54.mockapi.io/api/v1/users")
-                .then()
-                .log().all()
-                .extract()
-                .response();
-    }
-    @Test
-    public void test5() {
-        Response response = given()
-                .when()
-                .get("https://65c9e1133b05d29307df2a54.mockapi.io/api/v1/users")
-                .then()
-                .log().all()
-                .extract()
-                .response();
-    }
+
 }
