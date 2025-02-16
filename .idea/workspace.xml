@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8379a83-6bd9-4605-a9b6-9d5f3682e73e" name="Changes" comment="neew">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b8379a83-6bd9-4605-a9b6-9d5f3682e73e" name="Changes" comment="neew" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,7 +25,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="75648f4cf9b68003391fb12d0e6552f2a4544840" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,7 +61,7 @@
     "TestNG.C:/Users/taher.magdy/Downloads/TestRepo/src/test/resources/barcode.xml.executor": "Run",
     "TestNG.C:/Users/taher.magdy/Downloads/TestRepo/src/test/resources/masterSuite.xml.executor": "Run",
     "TestNG.TestRepo.test1.executor": "Run",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "neww",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/taher.magdy/Downloads/TestRepo/src/test/resources",
     "onboarding.tips.debug.path": "C:/Users/taher.magdy/Downloads/TestRepo/src/main/java/org/example/Main.java"
