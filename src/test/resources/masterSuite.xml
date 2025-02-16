@@ -2,5 +2,6 @@
 <suite name="MasterSuite">
     <suite-files>
         <suite-file path="barcode.xml"/>  <!-- Runs first -->
+        <suite-file path="barcode2.xml"/> <!-- Runs second -->
     </suite-files>
 </suite>
