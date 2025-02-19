@@ -33,7 +33,7 @@ jobs:
         gh_pages: gh-pages
 
     - name: Test with Maven
-      run: mvn clean test
+      run: mvn clean test "-DsuiteXmlFile=masterSuite.xml"
 
     - name: Install Allure CLI
       run: |
